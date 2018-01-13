@@ -98,37 +98,10 @@ header .header-content{
 
 /* Database Table Styles */
 #database-tables li:hover{
-  background-color: blue;
+  background-color: #475fa6;
   color: white;
   cursor: pointer;
 }
-
-/* Card Carouel CSS */
-
-/* equal card height */
-.row-equal > div[class*='col-'] {
-    display: flex;
-    flex: 1 0 auto;
-}
-
-.row-equal .card {
-   width: 100%;
-}
-
-/* ensure equal card height inside carousel */
-.carousel-inner>.row-equal.active,
-.carousel-inner>.row-equal.next,
-.carousel-inner>.row-equal.prev {
-    display: flex;
-}
-
-/* prevent flicker during transition */
-.carousel-inner>.row-equal.active.left,
-.carousel-inner>.row-equal.active.right {
-    opacity: 0.5;
-    display: flex;
-}
-
 
 footer{
       background-color: #475fa6;
