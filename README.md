@@ -5,7 +5,7 @@
 </p>
 
 <h3>Project Outline </h3>
-<ul>
+<ol>
   <li>Database Proposal</li>
   <li>ER Diagram of our Dataaseb</li>
   <li>Converting ER Diagram to Relations</li>
@@ -13,7 +13,7 @@
   <li>Initliazing MySQL Database</li>
   <li>Test our Database with Queries </li>
   <li>Deploying our Database to Web</li>
-</ul>
+</ol>
 
 <h3>Team Members</h3>
 <ul>
