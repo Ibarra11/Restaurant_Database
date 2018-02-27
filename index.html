@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie-edge">
     <title>Restaurant Management System</title>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/9a219995b6.js"></script>
     <link rel="stylesheet" href="./css/style.css">
@@ -21,7 +20,7 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active"><a class="nav-link" href="#about-header">About</a></li>
             <li class="nav-item"><a class="nav-link" href="#database-model-header">ER Diagram</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Relations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#database-tables">Relations</a></li>
             <li class="nav-item"><a class="nav-link" href="#team-header">Team</a></li>
           </ul>
         </div>
@@ -33,8 +32,8 @@
       <div class="light-overlay">
       <div class="container">
         <div class="row">
-          <div class="col-sm-8 header-content">
-            <h1 class="display-3">Restaurant Manager</h1>
+          <div class="col-sm-10 header-content">
+            <h1 >Restaurant Manager</h1>
             <h4>A Database Modeling the Backend of a Restaurant </h4>
           </div>
         </div>
@@ -68,7 +67,7 @@
                 <li>Database Proposal</li>
                 <li>ER diagram</li>
                 <li>Converting our ER diagram to Relations</li>
-                <li>Normalization and </li>
+                <li>Normalization</li>
                 <li>Initializing MySQL Database</li>
                 <li>Testing Our Database Throught Queries</li>
                 <li>Displaying Our Database To The Web</li>
@@ -95,22 +94,35 @@
     </section>
 
     <section class="py-5" id="database-tables">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-3">
             <h5 class="text-center">Choose a Relation</h5>
-            <ul class="list-group">
-              <li class="list-group-item">Restaurant Information</li>
-              <li class="list-group-item">Employee</li>
-              <li class="list-group-item">Equipment History</li>
-              <li class="list-group-item">Expenses</li>
+            <ul class="list-group relations">
+              <li class="list-group-item">Restaurant_Information</li>
+              <li class="list-group-item">Employee_Information</li>
+              <li class="list-group-item">Employee_Dependents</li>
+              <li class="list-group-item">Supplier</li>
               <li class="list-group-item">Sales</li>
-              <li class="list-group-item">Food/Drink Stock</li>
+              <li class="list-group-item">Expenses</li>
+              <li class="list-group-item">Orders</li>
+              <li class="list-group-item">Food_Drink_Stock</li>
+              <li class="list-group-item">Equipment</li>
+              <li class="list-group-item">Staff</li>
+              <li class="list-group-item">Generates</li>
+              <li class="list-group-item">Pays</li>
+              <li class="list-group-item">Operated_By</li>
+              <li class="list-group-item">Distributes</li>
+              <li class="list-group-item">Utilizes</li>
+              <li class="list-group-item">Delivers</li>
+              <li class="list-group-item">Contacts</li>
               <li class="list-group-item">Managers</li>
-              <li class="list-group-item">Suppliers</li>
             </ul>
           </div>
-          <div class="table">
+          <div class="col-md-9">
+            <div class="table-display">
+
+            </div>
           </div>
         </div>
       </div>
@@ -125,7 +137,7 @@
     <section class=" py-5" id="team-info">
       <div class="container">
           <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-12 col-md-3">
               <div class="card text-center card-body">
                 <h3>Alan Ibarra</h3>
                 <h5>CSU Stanislaus</h5>
@@ -138,7 +150,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-12 col-md-3">
               <div class="card text-center card-body">
                 <h3>Jesus Vargas</h3>
                 <h5>CSU Stanislaus</h5>
@@ -151,7 +163,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-12 col-md-3">
               <div class="card text-center card-body">
                 <h3>Kevin Lee</h3>
                 <h5>CSU Stanislaus</h5>
@@ -164,7 +176,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-12 col-md-3">
               <div class="card card-body text-center">
                 <h3>Gurmeet Lotey</h3>
                 <h5>CSU Stanislaus</h5>
@@ -186,8 +198,8 @@
     </footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  <script src="js/index.js" charset="utf-8"></script>
   </body>
 </html>

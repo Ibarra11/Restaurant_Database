@@ -39,7 +39,7 @@ a:hover{
 
 /* Header Section Styles */
 #project-title{
-  min-height: 480px;
+  min-height: 670px;
   position: relative;
   background-image: url("../img/Database_img.jpeg");
   background-size: cover;
@@ -73,6 +73,13 @@ header .header-content{
   color: white;
 }
 
+.header-content h1{
+ font-size: 5rem;
+}
+
+.header-content h4{
+ font-size: 1.75rem;
+}
 
 
 
@@ -101,6 +108,10 @@ header .header-content{
   background-color: #475fa6;
   color: white;
   cursor: pointer;
+}
+
+th, tr{
+  text-align: center;
 }
 
 footer{
